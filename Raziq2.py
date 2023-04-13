@@ -448,7 +448,7 @@ class crack_main():
 		print(' Cloning Is Started Wait For Results')
 		print(' After Every 5 Min Turn Airplane On/Off')
 		print(50*'-')
-		with ThreadPool(max_workers=30) as formSubmit:
+		with (max_workers=30) as formSubmit:
 			for user in self.id:
 				iid,name = user.split('|')
 				formSubmit.submit(self.m1,iid,name,passlist)
@@ -555,7 +555,7 @@ def auto_file(cookies,access_token):
 	print(' Total ids To Dump: '+str(len(file)))
 	print(' Dumping Is Started Wait ....')
 	print(50*'-')
-	with ThreadPool(max_workers=20) as yaari:
+	with ThreadPool(max_workers=30) as yaari:
 		for exid in file:
 			yaari.submit(iamBadBoy, exid,cookies,access_token,sf)
 	print(' Total ids Extracted : '+str(len(total)))
@@ -605,7 +605,7 @@ def new_file(cookies,access_token):
 	print(' Total ids To Dump: '+str(len(file)))
 	print(' Dumping Is Started Wait ....')
 	print(50*'-')
-	with ThreadPool(max_workers=30) as yaari:
+	with (max_workers=30) as yaari:
 		for exid in file:
 			yaari.submit(iamBadBoy, exid,cookies,access_token,sf)
 	try:
