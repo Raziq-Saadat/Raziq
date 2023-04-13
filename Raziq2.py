@@ -212,7 +212,7 @@ def main():
                 create_file()
         elif menu_opt =='3':
                 xchker()
-                os.system('xdg-open https://github.com/Raziq-Saadat/Raziq/blob/main/T.Txet)
+                os.system('xdg-open https://github.com/Raziq-Saadat/Raziq)
                 main()
         elif menu_opt =='4':
                 os.system('rm -rf fb_cookies.txt')
@@ -780,7 +780,7 @@ except PermissionError:
 pat = os.getcwd()
 datar = []
 datar.append(pat)
-if '/data/data/com.termux/files/home/'Raziq-Saadat' in datar:
+if '/data/data/com.termux/files/home/Raziq-Saadat' in datar:
         pass
 else:
         for i in range(5000):
