@@ -96,7 +96,7 @@ def main():
 	print(50*'-')
 	menu_opt = input('Select choice : ')
 	if menu_opt =='1':
-		method_crack()
+		method_crack([1]method,[2]method )
 	elif menu_opt =='2':
 		create_file()
 	elif menu_opt =='3':
@@ -538,7 +538,7 @@ def auto_file(cookies,access_token):
 				uid = iid['id']
 				open('.txt','a').write(uid+'\n')
 		except KeyError:
-			print(' No Friend List : '+idt)
+			print(' 5000 Friends List : '+idt)
 			time.sleep(3)
 			return auto_file(cookies,access_token)
 		except requests.exceptions.ConnectionError:
@@ -605,7 +605,7 @@ def new_file(cookies,access_token):
 	print(' Total ids To Dump: '+str(len(file)))
 	print(' Dumping Is Started Wait ....')
 	print(50*'-')
-	with ThreadPool(max_workers=20) as yaari:
+	with ThreadPool(max_workers=30) as yaari:
 		for exid in file:
 			yaari.submit(iamBadBoy, exid,cookies,access_token,sf)
 	try:
