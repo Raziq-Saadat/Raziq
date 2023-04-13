@@ -96,7 +96,7 @@ def main():
 	print(50*'-')
 	menu_opt = input('Select choice : ')
 	if menu_opt =='1':
-		method_crack([1]method,[2]method )
+		method_crack()
 	elif menu_opt =='2':
 		create_file()
 	elif menu_opt =='3':
