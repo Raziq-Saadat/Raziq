@@ -198,7 +198,7 @@ logo = """
 \033[1;37m[+] \033[1;37mON FACEBOK   :  \033[1;37mRaziqullah saadat
 \033[1;37m[+] \033[1;37mON GITHUB    :  \033[1;37mRaziq-saadat
 \033[1;37m[+] \033[1;37mTOOL STATUS  :  \033[1;37mFREE
-\033[1;37m[+] \033[1;37mTOOL VIRSION :  \033[1;31m4.0.8
+\033[1;37m[+] \033[1;37mTOOL VIRSION :  \033[1;31m5.0.0
 \x1b[1;97m[+]═══════════════════════════════════════════"""
 loop = 0
 oks = []
