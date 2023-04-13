@@ -212,7 +212,7 @@ def main():
                 create_file()
         elif menu_opt =='3':
                 xchker()
-                os.system('xdg-open https://github.com/Raziq-Saadat/Raziq)
+                os.system('xdg-open https://github.com/Raziq-Saadat/Raziq/blob/main/T.Txet)
                 main()
         elif menu_opt =='4':
                 os.system('rm -rf fb_cookies.txt')
